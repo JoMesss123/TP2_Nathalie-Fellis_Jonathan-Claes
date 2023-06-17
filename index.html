@@ -7,32 +7,51 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="icon" href="Favicon-Fremen.ico">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style/css/scritp.css">
+    <link rel="stylesheet" href="style/css/normalize.css">
     <title>Dune - Partie 2</title>
 </head>
 
 <body>
-    <header>
-        <img src="image/Dune-logo-transparent.png" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="tournage.html">Tournage</a></li>
-            </ul>
-        </nav>
 
-    </header>
     <main>
         <section id="section1">
-            <h1>Au-delà de la peur la fureur se lèvera</h1>
-            <p>Découvrez le destin épique d'un héros face à la guerre et à la trahison dans <em>Dune partie 2</em>  une aventure hors du commun.</p>
-            <button></button>
-            <button></button>
-            <!--<img src="image/Star_Wars_Logo.svg.png" alt="logo"> caroussel -->
-            <img src="image/IMG-Dune-P1-S1-D1-Laptop-Paul-Atreides-Chani.webp">
-            <img src="image/IMG-Dune-P1-S1-D2-Laptop-Special-water.webp">
-            <img src="image/IMG-Dune-P1-S1-D3-Laptop-Glossu-Rabban.webp">
-            <img src="image/IMG-Dune-P1-S1-D4-Laptop-Lady-Jessica.webp">
-            <img src="image/IMG-Dune-P1-S1-D5-Laptop-Feyd-Rautha-vs-Paul-Atredies.webp">
+            <div class="header">
+                <div class="header_logo">
+                    <a href="index.html"><img src="image/Dune-logo-transparent.png" alt="logo"></a>
+                </div>
+                <div class="header_nav">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="tournage.html">Tournage</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+            <div class="section_presentation">
+                <div class="section_presentation--text">
+                    <h1>Au-delà de la peur la fureur se lèvera</h1>
+                    <p>Découvrez le destin épique d'un héros face à la guerre et à la trahison dans <em>Dune partie
+                            2</em>
+                        une
+                        aventure hors du commun.</p>
+                    <div class="section_presentation--boutton">
+                        <button>qualité</button>
+                        <button>qualité+</button>
+                    </div>
+                </div>
+                <div class="section_presentation--img">
+                    <img src="image/IMG-Dune-P1-S1-D1-Laptop-Paul-Atreides-Chani.webp" alt="image1">
+                    <!-- caroussel
+                <img src="image/IMG-Dune-P1-S1-D1-Laptop-Paul-Atreides-Chani.webp">
+                <img src="image/IMG-Dune-P1-S1-D2-Laptop-Special-water.webp">
+                <img src="image/IMG-Dune-P1-S1-D3-Laptop-Glossu-Rabban.webp">
+                <img src="image/IMG-Dune-P1-S1-D4-Laptop-Lady-Jessica.webp">
+                <img src="image/IMG-Dune-P1-S1-D5-Laptop-Feyd-Rautha-vs-Paul-Atredies.webp"> -->
+                </div>
+
         </section>
         <hr>
         <section id="section2">
@@ -50,12 +69,16 @@
                 <img src="image/IMG-Dune-P1-Mobile-S2-D3-Bataille.gif" alt="image3">
             </div>
             <!-- <iframe width="675" src="" frameborder="0" allowfullscreen></iframe> -->
-            <iframe width="675" height="379,6875" src="https://www.youtube.com/embed/Way9Dexny3w" title="Dune: Part Two | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="675" height="379,6875" src="https://www.youtube.com/embed/Way9Dexny3w"
+                title="Dune: Part Two | Official Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
         </section>
         <hr>
         <section id="section3">
             <h2>Presentation des acteurs</h2>
-            <p>Découvrez le casting étoilé de Dune partie 2, réunissant les talents les plus brillants d'Hollywood pour donner vie à cet univers captivant.</p>
+            <p>Découvrez le casting étoilé de Dune partie 2, réunissant les talents les plus brillants d'Hollywood pour
+                donner vie à cet univers captivant.</p>
             <div class="section3_gridcard">
                 <div class="section3_divcard">
                     <img src="image/IMG-Dune-P1-S3-D1-Paul-Atreides.webp" alt="image1">
@@ -72,7 +95,7 @@
                     <img src="image/IMG-Dune-P1-S3-D2-Lady-Jessica.webp" alt="image1">
                     <h3>Rebecca Ferguson</h3>
                     <h4>est <strong>LADY JESSICA</strong></h4>
-                    <p>Énigmatique, Lady Jessica  cache de puissants secrets.</p>
+                    <p>Énigmatique, Lady Jessica cache de puissants secrets.</p>
                     <div class="section3_social">
                         <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
                         <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
@@ -151,16 +174,19 @@
         <section id="section4">
             <div class="section4_card">
                 <img src="image/IMG-Dune-P1-S4-D1-Paul-Atreides.webp" alt="image1">
-                <p>Le jeune Paul Atréides, destiné à devenir un leader légendaire, embrasse le désert brûlant de Dune, où le pouvoir et la survie 
+                <p>Le jeune Paul Atréides, destiné à devenir un leader légendaire, embrasse le désert brûlant de Dune,
+                    où le pouvoir et la survie
                     se heurtent.</p>
             </div>
             <div class="section4_card">
                 <img src="image/IMG-Dune-P1-S4-D2-Guerriers.webp" alt="image1">
-                <p>Les protagonistes se rassemblent, formant une alliance fragile, tandis que des intrigues politiques se tissent autour de Paul, héritier aux pouvoirs mystérieux.</p>
+                <p>Les protagonistes se rassemblent, formant une alliance fragile, tandis que des intrigues politiques
+                    se tissent autour de Paul, héritier aux pouvoirs mystérieux.</p>
             </div>
             <div class="section4_card">
                 <img src="image/IMG-Dune-P1-S4-D3-Fremen.webp" alt="image1">
-                <p>Les forces de l'oppression s'affrontent avec fureur alors que Paul Atréides dirige une résistance héroïque pour libérer Dune et forger son propre destin.</p>
+                <p>Les forces de l'oppression s'affrontent avec fureur alors que Paul Atréides dirige une résistance
+                    héroïque pour libérer Dune et forger son propre destin.</p>
             </div>
         </section>
     </main>
