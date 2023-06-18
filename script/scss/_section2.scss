@@ -36,22 +36,24 @@ form{
 .section2_divimg{
     
     width: 90%;
-    margin: auto;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+   
 }
 
 .section2_divimg--img{
-    width: 100%;
+    width: 33%;
     padding:0.2rem;
   
     margin: auto;
     
 }
 
+iframe{
+    margin:1rem
+}
