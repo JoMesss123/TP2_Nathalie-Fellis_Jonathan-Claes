@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #554735;
+    background-color: $color-fond;
 }
 form{
     margin: 0.1rem;
@@ -13,25 +13,29 @@ form{
 }
 #courriel{
     width: 100%;
-    height: 2rem;
-    border-radius: 5px;
-    border: 1px solid rgb(167, 167, 8);
+    height: 3rem;
+    padding: 0 4rem;
+    border: 1px solid $color-accent;
     margin-top: 2rem;
-    margin-bottom: 2rem;
 }
 
 #envoyer{
     width: 50%;
-    margin-left: 1rem;
-    height: 2rem;
-    border-radius: 5px;
-    border: 1px solid rgb(167, 167, 8);
-    background-color: rgb(167, 167, 8);
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0 0 1.5rem;
+    height: 3rem;
+    padding: 0 1.25rem;
+    border: 1px solid $color-accent;
+    background-color: $color-accent;
+    color: $color-btn-txt;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+        background-color: $color-btn-txt;
+        color: $color-accent;
+    }
 }
 
 .section2_divimg{
@@ -44,7 +48,6 @@ form{
     align-items: center;
     max-width: 1200px;
     margin: auto;
-   
 }
 
 .section2_divimg--img{
@@ -59,6 +62,3 @@ iframe{
     margin:1rem
 }
 
-.titre-h2 {
-    @include titre-h2;
-}

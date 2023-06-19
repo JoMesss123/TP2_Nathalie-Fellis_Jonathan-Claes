@@ -1,28 +1,79 @@
 #section3{
-    background-color: #554735;   
+    background-color: $color-fond;
     margin-top: 5rem; 
- 
-   
 }
 
 .section3_princ{
-   
-    
     max-width: 1200px;
     width: 100%;
     display: flex;
     flex-direction: column;
     margin:auto;
     margin-bottom: 2rem;
+
+    h2 {
+        font-size: 3rem;
+        color: $color-primaire;
+        letter-spacing: 0.1rem;
+        margin-top: 2rem 0;
+    }
+
+    p {
+        font-size : 1.25rem;
+        margin-bottom: 0.75rem;
+        max-width: 70%;
+    }
 }
 
 .section3_gridcard{
     margin: auto;
     align-items: center;
-   
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1rem;
+    align-items: stretch;
     margin: 1rem;
     margin-bottom: 2rem;
+    
+    img {
+        border-bottom: 2px solid $color-accent;
+    }
+
+    h3, h4 {
+        font-family: 'Lato', sans-serif;
+        color: $color-tertiaire;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+        letter-spacing: 0.05rem;
+        margin: 0.75rem 0 0.05rem 0;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    strong {
+        color: $color-accent;
+        letter-spacing: 0.04rem;
+        margin-left: 0.25rem;
+    }
+
+    p{
+        font-family: 'FrankRuhlLibre, serif';
+        font-size: 1.15rem;
+        margin-top: 0.5rem;
+    }
+    i {
+        color: $color-icone;
+        font-size: 1.5rem;
+        margin: 1rem 1rem 1.5rem 0;
+        transition: 0.3s, color 0.3s;
+
+        &:hover {
+            color: $color-accent;
+        }
+    }
 }

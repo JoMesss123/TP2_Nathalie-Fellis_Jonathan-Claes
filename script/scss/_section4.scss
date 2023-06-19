@@ -18,19 +18,20 @@
 }
 
 .section4_card1 {
-    background-color: #cf7704;
+    background-color: $color-accent;
+    opacity: 0.7;
     display: flex;
 
 }
 
 .section4_card2 {
-    background-color: #554735;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
 .section4_card3 {
-    background-color: #cf7704;
+    background-color: $color-accent;
+    opacity: 0.7;
 }
 
 .section4_card--text1 {

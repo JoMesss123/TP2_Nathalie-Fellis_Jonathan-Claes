@@ -2,18 +2,23 @@
 
 // TYPOGRAPHIE
 
-html {
-    font-size: 62.5%;
+h1, h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    color: $color-primaire;
 }
 
-body {
-    color: $color-secondaire;
-    background-color: $color-fond;
-    font-size: 1.6rem;
-    line-height: 1.5;
+h1 {
+    font-size: 8rem;
+}
+
+h2 {
+    font-size: 5.4rem;
+    color: $color-primaire;
+    margin: 2rem 0;
 }
 
 a {
     text-decoration: none;
     transition: all 0.3s;
 }
+
