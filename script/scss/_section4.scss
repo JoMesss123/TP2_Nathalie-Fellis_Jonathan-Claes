@@ -10,30 +10,37 @@
     max-width: 1200px;
     margin: auto;
     justify-content: space-between;
-    text-align: center;
+    text-align: left;
     vertical-align: middle;
     align-items: center;
-
-
 }
 
-.section4_card1 {
-    background-color: $color-accent;
-    opacity: 0.7;
+.section4_card1, .section4_card3 {
     display: flex;
-
+    background-color: rgba(249, 191, 69, 0.7);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
 }
 
 .section4_card2 {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin: 2rem 0;
 }
 
-.section4_card3 {
-    background-color: $color-accent;
-    opacity: 0.7;
+.section4_card--text {
+    padding: 2rem 0;
+
+    img {
+        box-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
+    }
+}
+
+.section4_card--text, .section4_card--text1, .section4_card--text2 {
+    color: $color-tertiaire;
+    font-size: 1.25em;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
 }
 
 .section4_card--text1 {
-    padding: 2rem;
+    margin-left: 10%;
 }
