@@ -1,6 +1,6 @@
 #section3{
     background-color: $color-fond;
-    margin-top: 5rem; 
+    margin-top: 2rem; 
 }
 
 .section3_princ{
@@ -38,6 +38,12 @@
     
     img {
         border-bottom: 2px solid $color-accent;
+        overflow: hidden;
+        box-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
+
+        &:hover {
+            box-shadow: 0 14px 28px rgba(18, 14, 7, 0.25), 0 10px 10px rgba(13, 0, 0, 0.22);
+        }
     }
 
     h3, h4 {

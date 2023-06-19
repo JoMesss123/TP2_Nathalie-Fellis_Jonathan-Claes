@@ -27,12 +27,12 @@ a {
 }
 
 .hr_2 {
-  width: 10rem;
+  width: 15rem;
   border: 0;
   height: 3px;
-  background: #cf7704;
+  background-color: #f9bf45;
   align-items: center;
-  margin: auto;
+  margin: 4rem auto;
 }
 
 body {
@@ -106,6 +106,17 @@ nav ul li {
   align-items: center;
   background-color: #251d0e;
 }
+#section2 h2 {
+  font-size: 3rem;
+  color: #d9d4cc;
+  letter-spacing: 0.1rem;
+  margin-top: 4rem;
+}
+#section2 p {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  max-width: 70%;
+}
 
 form {
   margin: 0.1rem;
@@ -148,6 +159,7 @@ form {
   align-items: center;
   max-width: 1200px;
   margin: auto;
+  padding: 4rem 0;
 }
 
 .section2_divimg--img {
@@ -162,7 +174,7 @@ iframe {
 
 #section3 {
   background-color: #251d0e;
-  margin-top: 5rem;
+  margin-top: 2rem;
 }
 
 .section3_princ {
@@ -197,6 +209,11 @@ iframe {
 }
 .section3_gridcard img {
   border-bottom: 2px solid #f9bf45;
+  overflow: hidden;
+  box-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
+}
+.section3_gridcard img:hover {
+  box-shadow: 0 14px 28px rgba(18, 14, 7, 0.25), 0 10px 10px rgba(13, 0, 0, 0.22);
 }
 .section3_gridcard h3, .section3_gridcard h4 {
   font-family: "Lato", sans-serif;
@@ -241,29 +258,39 @@ iframe {
   max-width: 1200px;
   margin: auto;
   justify-content: space-between;
-  text-align: center;
+  text-align: left;
   vertical-align: middle;
   align-items: center;
 }
 
-.section4_card1 {
-  background-color: #f9bf45;
-  opacity: 0.7;
+.section4_card1, .section4_card3 {
   display: flex;
+  background-color: rgba(249, 191, 69, 0.7);
+  -webkit-backdrop-filter: blur(8px);
+          backdrop-filter: blur(8px);
+  box-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
 }
 
 .section4_card2 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
 }
 
-.section4_card3 {
-  background-color: #f9bf45;
-  opacity: 0.7;
+.section4_card--text {
+  padding: 2rem 0;
+}
+.section4_card--text img {
+  box-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
+}
+
+.section4_card--text, .section4_card--text1, .section4_card--text2 {
+  color: #f1e9da;
+  font-size: 1.25em;
+  font-family: "Lato", sans-serif;
+  text-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
 }
 
 .section4_card--text1 {
-  padding: 2rem;
+  margin-left: 10%;
 }
 
 footer {
