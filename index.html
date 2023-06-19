@@ -7,165 +7,235 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="icon" href="Favicon-Fremen.ico">
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style/css/scritp.css">
+    <link rel="stylesheet" href="style/css/normalize.css">
     <title>Dune - Partie 2</title>
 </head>
 
 <body>
-    <header>
-        <img src="image/Dune-logo-transparent.png" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="tournage.html">Tournage</a></li>
-            </ul>
-        </nav>
 
-    </header>
     <main>
         <section id="section1">
-            <h1>Au-delà de la peur la fureur se lèvera</h1>
-            <p>Découvrez le destin épique d'un héros face à la guerre et à la trahison dans <em>Dune partie 2</em>  une aventure hors du commun.</p>
-            <button></button>
-            <button></button>
-            <!--<img src="image/Star_Wars_Logo.svg.png" alt="logo"> caroussel -->
-            <img src="image/IMG-Dune-P1-S1-D1-Laptop-Paul-Atreides-Chani.webp">
-            <img src="image/IMG-Dune-P1-S1-D2-Laptop-Special-water.webp">
-            <img src="image/IMG-Dune-P1-S1-D3-Laptop-Glossu-Rabban.webp">
-            <img src="image/IMG-Dune-P1-S1-D4-Laptop-Lady-Jessica.webp">
-            <img src="image/IMG-Dune-P1-S1-D5-Laptop-Feyd-Rautha-vs-Paul-Atredies.webp">
+            <div class="header">
+                <div class="header_logo">
+                    <a href="index.html"><img src="image/Dune-logo-transparent.png" alt="logo"></a>
+                </div>
+                <div class="header_nav">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">Accueil</a></li>
+                            <li><a href="tournage.html">Tournage</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+            <div class="section_presentation">
+                <div class="section_presentation--text">
+                    <h1>Au-delà de la peur la fureur se lèvera</h1>
+                    <p>Découvrez le destin épique d'un héros face à la guerre et à la trahison dans <em>Dune partie
+                            2</em>
+                        une
+                        aventure hors du commun.</p>
+                    <div class="section_presentation--boutton">
+                        <button>qualité</button>
+                        <button>qualité+</button>
+                    </div>
+                </div>
+                <div class="section_presentation--img">
+                    <img src="image/IMG-Dune-P1-S1-D1-Laptop-Paul-Atreides-Chani.webp" alt="image1">
+                    <!-- caroussel
+                <img src="image/IMG-Dune-P1-S1-D1-Laptop-Paul-Atreides-Chani.webp">
+                <img src="image/IMG-Dune-P1-S1-D2-Laptop-Special-water.webp">
+                <img src="image/IMG-Dune-P1-S1-D3-Laptop-Glossu-Rabban.webp">
+                <img src="image/IMG-Dune-P1-S1-D4-Laptop-Lady-Jessica.webp">
+                <img src="image/IMG-Dune-P1-S1-D5-Laptop-Feyd-Rautha-vs-Paul-Atredies.webp"> -->
+                </div>
+
         </section>
-        <hr>
+        <hr class="hr">
         <section id="section2">
             <h2>Images et Extrait</h2>
             <p>Explorez des images captivantes et des extraits exclusifs de <em>Dune partie 2</em>.</p>
             <div class="section2_form">
                 <form action="confirmation.html" method="get" id="form1" onsubmit="return validateForm()" novalidate>
-                    <label for="courriel">Courriel</label>
-                    <input type="email" name="courriel" id="courriel" required>
-                    <input type="submit" value="Envoyer">
+
+                    <input type="email" name="courriel" id="courriel" required placeholder="Courriel">
+                    <input type="submit" id="envoyer" value="Envoyer">
             </div>
             <div class="section2_divimg">
-                <img src="image/IMG-Dune-P1-Mobile-S2-D1-Giving-the-sign.gif" alt="image1">
-                <img src="image/IMG-Dune-P1-Mobile-S2-D2-Lady-Jessica.gif" alt="image2">
-                <img src="image/IMG-Dune-P1-Mobile-S2-D3-Bataille.gif" alt="image3">
+                <img src="image/IMG-Dune-P1-Mobile-S2-D1-Giving-the-sign.gif" alt="image1" class="section2_divimg--img">
+                <img src="image/IMG-Dune-P1-Mobile-S2-D2-Lady-Jessica.gif" alt="image2" class="section2_divimg--img">
+                <img src="image/IMG-Dune-P1-Mobile-S2-D3-Bataille.gif" alt="image3" class="section2_divimg--img">
             </div>
-            <!-- <iframe width="675" src="" frameborder="0" allowfullscreen></iframe> -->
-            <iframe width="675" height="379,6875" src="https://www.youtube.com/embed/Way9Dexny3w" title="Dune: Part Two | Official Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <iframe width="675" height="379,6875" src="https://www.youtube.com/embed/Way9Dexny3w"
+                title="Dune: Part Two | Official Trailer" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
         </section>
-        <hr>
+        <hr class="hr_2">
         <section id="section3">
-            <h2>Presentation des acteurs</h2>
-            <p>Découvrez le casting étoilé de Dune partie 2, réunissant les talents les plus brillants d'Hollywood pour donner vie à cet univers captivant.</p>
-            <div class="section3_gridcard">
-                <div class="section3_divcard">
-                    <img src="image/IMG-Dune-P1-S3-D1-Paul-Atreides.webp" alt="image1">
-                    <h3>Thimoté Chalamet</h3>
-                    <h4>est <strong>PAUL ATREIDES</strong></h4>
-                    <p>Héritier destiné à changer le cours de l'univers.</p>
-                    <div class="section3_social">
-                        <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
+            <div class="section3_princ">
+                <h2>Presentation des acteurs</h2>
+                <p>Découvrez le casting étoilé de Dune partie 2, réunissant les talents les plus brillants d'Hollywood
+                    pour
+                    donner vie à cet univers captivant.</p>
+                <div class="section3_gridcard">
+                    <div class="section3_divcard">
+                        <img src="image/IMG-Dune-P1-S3-D1-Paul-Atreides.webp" alt="image1">
+                        <hr class="hr">
+                        <h3>Thimoté Chalamet</h3>
+                        <h4>est <strong>PAUL ATREIDES</strong></h4>
+                        <p>Héritier destiné à changer le cours de l'univers.</p>
+                        <div class="section3_social">
+                            <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="section3_divcard">
+                        <img src="image/IMG-Dune-P1-S3-D2-Lady-Jessica.webp" alt="image1">
+                        <hr class="hr">
+                        <h3>Rebecca Ferguson</h3>
+                        <h4>est <strong>LADY JESSICA</strong></h4>
+                        <p>Énigmatique, Lady Jessica cache de puissants secrets.</p>
+                        <div class="section3_social">
+                            <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="section3_divcard">
+                        <img src="image/IMG-Dune-P1-S3-D3-Gurney-Halleck.webp" alt="image1">
+                        <hr class="hr">
+                        <h3>Josh Brolin</h3>
+                        <h4>est <strong>GURNEY HALLECK</strong></h4>
+                        <p>Vétéran de guerre, Gurney est un guerrier intrépide.</p>
+                        <div class="section3_social">
+                            <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="section3_divcard">
+                        <img src="image/IMG-Dune-P1-S3-D4-Chani.webp" alt="image1">
+                        <hr class="hr">
+                        <h3>Zendaya</h3>
+                        <h4>est <strong>Chani</strong></h4>
+                        <p>Chani, guerrière du désert, incarne la sagesse ancestrale.</p>
+                        <div class="section3_social">
+                            <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="section3_divcard">
+                        <img src="image/IMG-Dune-P1-S3-D4-Princess-Irulan.webp" alt="image1">
+                        <hr class="hr">
+                        <h3>Florence Pugh</h3>
+                        <h4>est <strong>PRINCESSE IRULAN</strong></h4>
+                        <p>Intrigante, Irulan manie la diplomatie avec subtilité.</p>
+                        <div class="section3_social">
+                            <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="section3_divcard">
+                        <img src="image/IMG-Dune-P1-S3-D5-Feyd-Rautha.webp" alt="image1">
+                        <hr class="hr">
+                        <h3>Austin Butler</h3>
+                        <h4>est <strong>FEYD-RAUTHA</strong></h4>
+                        <p>Prince cruel, Feyd-Rautha règne dans l'ombre.</p>
+                        <div class="section3_social">
+                            <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="section3_divcard">
+                        <img src="image/IMG-Dune-P1-S3-D7-Baron-Harkonnen.webp" alt="image1">
+                        <hr class="hr">
+                        <h3>Stellan Skarsgård</h3>
+                        <h4>est <strong>BARON HARKONNEN</strong></h4>
+                        <p>Machiavélique Baron, maître des sombres complots.</p>
+                        <div class="section3_social">
+                            <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="section3_divcard">
+                        <img src="image/IMG-Dune-P1-S3-D8-Stilgar.webp" alt="image1">
+                        <hr class="hr">
+                        <h3>Javier Barden</h3>
+                        <h4>est <strong>STILGAR</strong></h4>
+                        <p>Stilgar, chef fier et loyal des guerriers du désert.</p>
+                        <div class="section3_social">
+                            <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="section3_divcard">
-                    <img src="image/IMG-Dune-P1-S3-D2-Lady-Jessica.webp" alt="image1">
-                    <h3>Rebecca Ferguson</h3>
-                    <h4>est <strong>LADY JESSICA</strong></h4>
-                    <p>Énigmatique, Lady Jessica  cache de puissants secrets.</p>
-                    <div class="section3_social">
-                        <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="section3_divcard">
-                    <img src="image/IMG-Dune-P1-S3-D3-Gurney-Halleck.webp" alt="image1">
-                    <h3>Josh Brolin</h3>
-                    <h4>est <strong>GURNEY HALLECK</strong></h4>
-                    <p>Vétéran de guerre, Gurney est un guerrier intrépide.</p>
-                    <div class="section3_social">
-                        <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="section3_divcard">
-                    <img src="image/IMG-Dune-P1-S3-D4-Chani.webp" alt="image1">
-                    <h3>Zendaya</h3>
-                    <h4>est <strong>Chani</strong></h4>
-                    <p>Chani, guerrière du désert, incarne la sagesse ancestrale.</p>
-                    <div class="section3_social">
-                        <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="section3_divcard">
-                    <img src="image/IMG-Dune-P1-S3-D4-Princess-Irulan.webp" alt="image1">
-                    <h3>Florence Pugh</h3>
-                    <h4>est <strong>PRINCESSE IRULAN</strong></h4>
-                    <p>Intrigante, Irulan manie la diplomatie avec subtilité.</p>
-                    <div class="section3_social">
-                        <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="section3_divcard">
-                    <img src="image/IMG-Dune-P1-S3-D5-Feyd-Rautha.webp" alt="image1">
-                    <h3>Austin Butler</h3>
-                    <h4>est <strong>FEYD-RAUTHA</strong></h4>
-                    <p>Prince cruel, Feyd-Rautha règne dans l'ombre.</p>
-                    <div class="section3_social">
-                        <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="section3_divcard">
-                    <img src="image/IMG-Dune-P1-S3-D7-Baron-Harkonnen.webp" alt="image1">
-                    <h3>Stellan Skarsgård</h3>
-                    <h4>est <strong>BARON HARKONNEN</strong></h4>
-                    <p>Machiavélique Baron, maître des sombres complots.</p>
-                    <div class="section3_social">
-                        <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
-                <div class="section3_divcard">
-                    <img src="image/IMG-Dune-P1-S3-D8-Stilgar.webp" alt="image1">
-                    <h3>Javier Barden</h3>
-                    <h4>est <strong>STILGAR</strong></h4>
-                    <p>Stilgar, chef fier et loyal des guerriers du désert.</p>
-                    <div class="section3_social">
-                        <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
-                    </div>
-                </div>
+
             </div>
         </section>
-        <hr>
+        <hr class="hr">
         <section id="section4">
-            <div class="section4_card">
-                <img src="image/IMG-Dune-P1-S4-D1-Paul-Atreides.webp" alt="image1">
-                <p>Le jeune Paul Atréides, destiné à devenir un leader légendaire, embrasse le désert brûlant de Dune, où le pouvoir et la survie 
-                    se heurtent.</p>
+            <div class="section4_card1">
+                <div class="section4_card--text">
+                    <img src="image/IMG-Dune-P1-S4-D1-Paul-Atreides.webp" alt="image1">
+                    <div class="section4_card--text1">
+                        <p>Le jeune Paul Atréides, destiné à devenir un leader légendaire, embrasse le désert brûlant de
+                            Dune,
+                            où le pouvoir et la survie
+                            se heurtent.</p>
+                    </div>
+
+                </div>
+
             </div>
-            <div class="section4_card">
-                <img src="image/IMG-Dune-P1-S4-D2-Guerriers.webp" alt="image1">
-                <p>Les protagonistes se rassemblent, formant une alliance fragile, tandis que des intrigues politiques se tissent autour de Paul, héritier aux pouvoirs mystérieux.</p>
+            <div class="section4_card2">
+                <div class="section4_card--text">
+                    <div class="section4_card--text1">
+                        <p>Les protagonistes se rassemblent, formant une alliance fragile, tandis que des intrigues
+                            politiques
+                            se tissent autour de Paul, héritier aux pouvoirs mystérieux.</p>
+                    </div>
+                    <img src="image/IMG-Dune-P1-S4-D2-Guerriers.webp" alt="image1">
+
+
+                </div>
             </div>
-            <div class="section4_card">
-                <img src="image/IMG-Dune-P1-S4-D3-Fremen.webp" alt="image1">
-                <p>Les forces de l'oppression s'affrontent avec fureur alors que Paul Atréides dirige une résistance héroïque pour libérer Dune et forger son propre destin.</p>
-            </div>
+            <div class="section4_card3">
+                <div class="section4_card--text">
+                    <img src="image/IMG-Dune-P1-S4-D3-Fremen.webp" alt="image1">
+                    <div class="section4_card--text1">
+                        <p>Les forces de l'oppression s'affrontent avec fureur alors que Paul Atréides dirige une
+                            résistance
+                            héroïque pour libérer Dune et forger son propre destin.</p>
+                    </div>
+
+                </div>
         </section>
+        <hr class="hr">
     </main>
     <footer>
-        <div>
+        <div class="footer_section1">
+            <div class="footer_hr">
+                <hr class="hr">
+            </div>
+            <div class="footer_logo">
+                <img src="image/Dune-logo-transparent.png" alt="logo">
+            </div>
+        </div>
+        <div class="footer_flex">
+            <div>
+                <p>Cégep de Trois-Rivières</p>
+                <p>Site réalisé par Nathalie Fellis et Jonathan Claes</p>
+            </div>
             <div>
                 <i class="fa-solid fa-phone"></i>
                 <p>819-123-4567</p>
@@ -174,25 +244,13 @@
 
             </div>
             <div>
-                <p>Site réalisé par Nathalie Fellis et Jonathan Claes</p>
-                <img src="image/Dune-logo-transparent.png" alt="logo">
-                <div>
-                    <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="carte__social-link"><i class="fab fa-linkedin"></i></a>
-                    <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
-                </div>
+                <a href="#" class="carte__social-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="carte__social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="carte__social-link"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="carte__social-link"><i class="fab fa-instagram"></i></a>
             </div>
 
         </div>
-        <hr>
-        <p>Cégep de Trois-Rivières</p>
-        <p>Star Wars est une saga cinématographique américaine du genre du space opera. George Lucas en est le créateur
-            en 1977. D'abord prévue pour être une trilogie sortie entre 1977 et 1983, la saga s'accroît ensuite, entre
-            1999 et 2005, de trois nouveaux films, qui racontent des événements antérieurs à la première trilogie. En
-            2012, Lucasfilm est racheté par la Walt Disney Company, qui annonce en 2014 la production d'une nouvelle
-            trilogie, dont le premier film est sorti en 2015. La saga est également déclinée en séries télévisées,
-            romans, bandes dessinées et jeux vidéo.</p>
 
     </footer>
 </body>
