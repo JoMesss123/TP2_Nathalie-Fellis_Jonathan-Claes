@@ -1,0 +1,19 @@
+@use 'variables';
+
+// TYPOGRAPHIE
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: $color-secondaire;
+    background-color: $color-fond;
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s;
+}

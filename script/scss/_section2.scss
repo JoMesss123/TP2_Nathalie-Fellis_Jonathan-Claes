@@ -58,3 +58,7 @@ form{
 iframe{
     margin:1rem
 }
+
+.titre-h2 {
+    @include titre-h2;
+}
