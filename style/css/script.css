@@ -37,7 +37,7 @@ a {
 
 body {
   color: #e3d3b5;
-  background-color: #251d0e;
+  background-color: rgb(37, 29, 14);
 }
 
 #section1 {
@@ -129,7 +129,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: #251d0e;
+  background-color: rgb(37, 29, 14);
 }
 #section2 h2 {
   font-size: 3rem;
@@ -198,7 +198,7 @@ iframe {
 }
 
 #section3 {
-  background-color: #251d0e;
+  background-color: rgb(37, 29, 14);
   margin-top: 2rem;
 }
 
@@ -318,8 +318,48 @@ iframe {
   margin-left: 10%;
 }
 
+#section5 {
+  background-color: rgb(37, 29, 14);
+}
+
+.section5_conteneur {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section5_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.section5_textstats {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0.5rem;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+}
+
+.section5_textstats--card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
 footer {
-  background-color: #251d0e;
+  background-color: rgb(37, 29, 14);
 }
 
 .footer_section1 {

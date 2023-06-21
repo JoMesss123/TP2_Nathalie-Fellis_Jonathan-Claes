@@ -7,48 +7,78 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="icon" href="Favicon-Fremen.ico">
+    <link rel="stylesheet" href="style/css/script.css">
+    <link rel="stylesheet" href="style/css/normalize.css">
     <title>Tournage de Dune - Parite 2</title>
 </head>
 
 <body>
-    <header>
-        <img src="image/Dune-logo-transparent.png" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="tournage.html">Tournage</a></li>
-            </ul>
-        </nav>
+     <header>
+        <!-- Barre de navigation -->
+        <section id="section_hero" class="bg-[url('image/IMG-Dune-P1-Hero-1280x720.webp')] bg-cover bg-no-repeat bg-top">
+            <nav class="max-w-screen-xl mx-auto py-6 px-12">
+                <!-- Conteneur flex -->
+                <div class="flex items-center justify-between">
+                    <!-- Logo -->
+                    <div class="pt-2">
+                        <img src="image/Dune-logo-transparent.png" class="w-42 h-fit" alt="Logo du film Dune partie 2">
+                    </div>
+        
+                    <!-- Items du menu -->
+                    <div class="hidden md:flex space-x-6">
+                        <a href="index.html" class="text-2xl text-yellow-500 border-transparent border-b-2 hover:text-orange-500 hover:border-b-2 hover:border-orange-500 focus:text-white focus:outline-none">Accueil</a>
+                        <a href="tournage.html" class="text-2xl text-yellow-500 border-transparent border-b-2 hover:text-orange-500 hover:border-b-2 hover:border-orange-500 focus:text-white focus:outline-none ">Tournage</a>
+                    </div>
+        
+                    <!-- Menu icone hamburger -->
+                    <button id="menu_btn" class="md:hidden focus:outline-none">
+                        <i class="fa-solid fa-bars-staggered text-4xl text-yellow-500"></i>
+                        <i class="fas fa-times text-4xl text-yellow-500 hidden"></i>
+                    </button>
+                </div>
+        
+                <!-- Menu Mobile -->
+                <div id="menu" class="fixed top-0 left-0 w-full h-full z-50 hidden md:hidden bg-gray-900 mt-28 opacity-90">
+                    <div class="flex flex-col items-start justify-start py-8 mt-10 space-y-6 font-bold">
+                        <a href="index.html" class="block ml-5 mr-5 px-2 py-2 w-full text-2xl text-yellow-500 font-semibold border-b-2 border-yellow-500 hover:bg-gray-800 hover:text-orange-700">Accueil</a>
+                        <a href="tournage.html" class="mt-4 ml-5 mr-5 block px-2 py-2 w-full text-2xl text-yellow-500 font-semibold border-b-2 border-yellow-500 hover:bg-gray-800 hover:text-orange-700">Tournage</a>
+                    </div>
+                </div>
+            </nav>
 
     </header>
     <main>
+        <hr class="hr">
         <section id="section5">
-            <div class="section5_img">
+            <div class="section5_conteneur">
+                <div class="section5_img">
                 <img src="image/IMG-Dune-P2-Laptop-S1-Animation.gif" alt="image1">
             </div>
             <div class="section5_text">
                 <h2>Chiffres clés</h2>
                 <p>Découvrez les chiffres fascinants qui façonnent l'univers immersif de Dune partie 2.</p>
-                <div class="section_textstats">
-                    <div class="section5_tetxstats_card">
+                <div class="section5_textstats">
+                    <div class="section5_textstats--card">
                         <h3>200M</h3>
                         <p>Budget</p>
                     </div>
-                    <div class="section5_tetxstats_card">
+                    <div class="section5_textstats--card">
                         <h3>1000</h3>
                         <p>Professionnel</p>
                     </div>
-                    <div class="section5_tetxstats_card">
+                    <div class="section5_textstats--card">
                         <h3>70</h3>
                         <p>Pays de distribution</p>
                     </div>
-                    <div class="section5_tetxstats_card">
+                    <div class="section5_textstats--card">
                         <h3>2000</h3>
                         <p>Plans visuels</p>
                     </div>
                     <button></button>
                 </div>
             </div>
+            </div>
+            
         </section>
         <hr>
         <section id="section6">
