@@ -318,6 +318,26 @@ iframe {
   margin-left: 10%;
 }
 
+h1, h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  color: #d9d4cc;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+h2 {
+  font-size: 5.4rem;
+  color: #d9d4cc;
+  margin: 2rem 0;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
 #section5 {
   background-color: rgb(37, 29, 14);
 }
@@ -356,6 +376,41 @@ iframe {
   justify-content: center;
   align-items: center;
   margin: 2rem;
+}
+
+h1, h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  color: #d9d4cc;
+}
+
+h1 {
+  font-size: 8rem;
+}
+
+h2 {
+  font-size: 5.4rem;
+  color: #d9d4cc;
+  margin: 2rem 0;
+}
+
+a {
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+#section6 {
+  background-color: rgb(37, 29, 14);
+}
+
+.section6_grid {
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  margin: auto;
+  width: 100%;
+  align-items: center;
+  justify-items: center;
 }
 
 footer {

@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'typography';
+
+#section6{
+    background-color:$color-fond;
+    
+}
+
+.section6_grid{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:1rem;
+    margin: auto;
+    width: 100%;
+    align-items:center;
+    justify-items: center;
+
+}
