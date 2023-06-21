@@ -3,7 +3,25 @@
 
 #section7{
     background-color:$color-fond;
+   max-width: 1200px;
+   margin: auto;
+}
+
+.section7_accordeons{
+    display: flex;
+    flex-direction: row;
+    max-width: 1200px;
     
+    justify-content: space-between;
+    margin:  auto;
+}
+
+
+.section7_accordeons--auxilliaire{
+    
+    width: 50;
+    margin: 0 1rem;
+    padding: 1rem;
 }
 
 

@@ -15,3 +15,4 @@ function toggleMenuIcon() {
     barsIcon.classList.toggle('hidden');
     timesIcon.classList.toggle('hidden');
 }
+
