@@ -16,7 +16,8 @@
 
     <header>
         <!-- Barre de navigation -->
-        <section id="section_hero" class="bg-[url('image/IMG-Dune-P1-Hero-1280x720.webp')] bg-cover bg-no-repeat bg-top">
+        <section id="section_hero"
+            class="bg-[url('image/IMG-Dune-P1-Hero-1280x720.webp')] bg-cover bg-no-repeat bg-top">
             <nav class="max-w-screen-xl mx-auto py-6 px-12">
                 <!-- Conteneur flex -->
                 <div class="flex items-center justify-between">
@@ -24,34 +25,40 @@
                     <div class="pt-2">
                         <img src="image/Dune-logo-transparent.png" class="w-42 h-fit" alt="Logo du film Dune partie 2">
                     </div>
-        
+
                     <!-- Items du menu -->
                     <div class="hidden md:flex space-x-6">
-                        <a href="index.html" class="text-2xl text-yellow-500 border-transparent border-b-2 hover:text-orange-500 hover:border-b-2 hover:border-orange-500 focus:text-white focus:outline-none">Accueil</a>
-                        <a href="tournage.html" class="text-2xl text-yellow-500 border-transparent border-b-2 hover:text-orange-500 hover:border-b-2 hover:border-orange-500 focus:text-white focus:outline-none ">Tournage</a>
+                        <a href="index.html"
+                            class="text-2xl text-yellow-500 border-transparent border-b-2 hover:text-orange-500 hover:border-b-2 hover:border-orange-500 focus:text-white focus:outline-none">Accueil</a>
+                        <a href="tournage.html"
+                            class="text-2xl text-yellow-500 border-transparent border-b-2 hover:text-orange-500 hover:border-b-2 hover:border-orange-500 focus:text-white focus:outline-none ">Tournage</a>
                     </div>
-        
+
                     <!-- Menu icone hamburger -->
                     <button id="menu_btn" class="md:hidden focus:outline-none">
                         <i class="fa-solid fa-bars-staggered text-4xl text-yellow-500"></i>
                         <i class="fas fa-times text-4xl text-yellow-500 hidden"></i>
                     </button>
                 </div>
-        
+
                 <!-- Menu Mobile -->
-                <div id="menu" class="fixed top-0 left-0 w-full h-full z-50 hidden md:hidden bg-gray-900 mt-28 opacity-90">
+                <div id="menu"
+                    class="fixed top-0 left-0 w-full h-full z-50 hidden md:hidden bg-gray-900 mt-28 opacity-90">
                     <div class="flex flex-col items-start justify-start py-8 mt-10 space-y-6 font-bold">
-                        <a href="index.html" class="block ml-5 mr-5 px-2 py-2 w-full text-2xl text-yellow-500 font-semibold border-b-2 border-yellow-500 hover:bg-gray-800 hover:text-orange-700">Accueil</a>
-                        <a href="tournage.html" class="mt-4 ml-5 mr-5 block px-2 py-2 w-full text-2xl text-yellow-500 font-semibold border-b-2 border-yellow-500 hover:bg-gray-800 hover:text-orange-700">Tournage</a>
+                        <a href="index.html"
+                            class="block ml-5 mr-5 px-2 py-2 w-full text-2xl text-yellow-500 font-semibold border-b-2 border-yellow-500 hover:bg-gray-800 hover:text-orange-700">Accueil</a>
+                        <a href="tournage.html"
+                            class="mt-4 ml-5 mr-5 block px-2 py-2 w-full text-2xl text-yellow-500 font-semibold border-b-2 border-yellow-500 hover:bg-gray-800 hover:text-orange-700">Tournage</a>
                     </div>
                 </div>
             </nav>
-        
+
             <section id="section1">
                 <div class="section_presentation">
                     <div class="section_presentation--text">
                         <h1>Au-delà de la peur la fureur se lèvera</h1>
-                        <p>Découvrez le destin épique d'un héros face à la guerre et à la trahison dans <em>Dune partie 2</em>
+                        <p>Découvrez le destin épique d'un héros face à la guerre et à la trahison dans <em>Dune partie
+                                2</em>
                             une aventure hors du commun.</p>
                         <div class="section_presentation--boutton">
                             <button class="btn--secondaire">qualité</button>
@@ -59,21 +66,64 @@
                         </div>
                     </div>
                     <div class="section_presentation--img">
-                        <img src="image/IMG-Dune-P1-S1-D1-Laptop-Paul-Atreides-Chani.webp" alt="image1">
-                        <!-- caroussel
-                    <img src="image/IMG-Dune-P1-S1-D1-Laptop-Paul-Atreides-Chani.webp">
-                    <img src="image/IMG-Dune-P1-S1-D2-Laptop-Special-water.webp">
-                    <img src="image/IMG-Dune-P1-S1-D3-Laptop-Glossu-Rabban.webp">
-                    <img src="image/IMG-Dune-P1-S1-D4-Laptop-Lady-Jessica.webp">
-                    <img src="image/IMG-Dune-P1-S1-D5-Laptop-Feyd-Rautha-vs-Paul-Atredies.webp"> -->
+                        <div id="carouselExampleSlidesOnly" class="relative" data-te-carousel-init
+                            data-te-carousel-slide>
+                            <!--Carousel items-->
+                            <div
+                                class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+                                <!--First item-->
+                                <div class="relative float-left -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                                    data-te-carousel-item data-te-carousel-active>
+                                    <img src="image/IMG-Dune-P1-S1-D1-Laptop-Paul-Atreides-Chani.webp"
+                                        class="block w-full" alt="Wild Landscape" />
+                                </div>
+                                <!--Second item-->
+                                <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                                    data-te-carousel-item>
+                                    <img src="image/IMG-Dune-P1-S1-D1-Laptop-Paul-Atreides-Chani.webp"
+                                        class="block w-full" alt="Camera" />
+                                </div>
+                                <!--Third item-->
+                                <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                                    data-te-carousel-item>
+                                    <img src="image/IMG-Dune-P1-S1-D2-Laptop-Special-water.webp" class="block w-full"
+                                        alt="Exotic Fruits" />
+                                </div>
+                                <!--Four item-->
+                                <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                                    data-te-carousel-item>
+                                    <img src="image/IMG-Dune-P1-S1-D3-Laptop-Glossu-Rabban.webp" class="block w-full"
+                                        alt="Exotic Fruits" />
+                                </div>
+                                <!--Five item-->
+                                <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                                    data-te-carousel-item>
+                                    <img src="image/IMG-Dune-P1-S1-D4-Laptop-Lady-Jessica.webp" class="block w-full"
+                                        alt="Exotic Fruits" />
+                                </div>
+                                <!--Six item-->
+                                <div class="relative float-left -mr-[100%] hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+                                    data-te-carousel-item>
+                                    <img src="image/IMG-Dune-P1-S1-D5-Laptop-Feyd-Rautha-vs-Paul-Atredies.webp"
+                                        class="block w-full" alt="Exotic Fruits" />
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <script type="text/javascript" src="../node_modules/tw-elements/dist/js/tw-elements.umd.min.js">
+                        </script>
+        
+
+
                     </div>
             </section>
         </section>
-    
+
     </header>
 
     <main>
-        
+
 
         <section id="section2">
             <h2>Images et Extraits</h2>
@@ -98,7 +148,7 @@
 
             <hr class="hr_2">
         </section>
-    
+
         <section id="section3">
             <div class="section3_princ">
                 <h2 class="titre-h2">Présentation des acteurs</h2>
