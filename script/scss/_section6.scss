@@ -3,7 +3,6 @@
 
 #section6{
     background-color:$color-fond;
-    
 }
 
 .section6_grid{
@@ -14,6 +13,17 @@
     margin: auto;
     width: 100%;
     align-items:center;
-    justify-items: center;
+    justify-items: center;    
+}
 
+.section6_img {
+	object-position: center;
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+    
+    & img:hover {
+        transform: scale(1.25);
+        transition: .5s, transform .5s ease-out;
+    }
 }
