@@ -12,17 +12,12 @@ footer{
     flex-direction: column;
     margin:auto;
     justify-content: center;
+    border-top: 4px solid $color-accent;
+    margin-top: 3%;
    
 }
 
-.footer_hr{
-    width: 1200px;
-}
-
-
-
 .footer_logo{
-  
     align-items: center;
     justify-content: center;
 }
@@ -30,10 +25,29 @@ footer{
 .footer_flex{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
     width: 100%;
-    margin:auto;
+    margin: auto;
     margin-bottom: 2rem;
+    padding-top: 1.5%;
 }
+
+.footer_contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    width: 33.333333%;
+    gap: 0.75rem;
+}
+
+.footer__social-link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
