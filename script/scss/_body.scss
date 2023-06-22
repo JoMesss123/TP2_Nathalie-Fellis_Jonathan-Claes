@@ -1,20 +1,8 @@
-.hr{
-    border: 0;
-    height: 3px;
-    background: #cf7704;
-    
-}
-
-.hr_2{
-    width:15rem;
-    border: 0;
-    height: 3px;
-    background-color: $color-accent;
-    align-items: center;
-    margin: 4rem auto;
-}
-
 body {
     color: $color-secondaire;
     background-color: $color-fond;
+}
+
+header {
+    border-bottom: 5px solid $color-accent;
 }
