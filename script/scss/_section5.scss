@@ -1,9 +1,9 @@
 @import 'variables';
-@import 'typography';
+// @import 'typography';
 
 #section5{
     background-color:rgb(37, 29, 14);
-    
+    margin: 4rem 0;
 }
 
 .section5_conteneur{
@@ -14,16 +14,35 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    align-items: left;
 }
 
 .section5_text{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    text-align: left;
+    margin-left: 3rem;
+
+    & h2 {
+        font-family: 'Frank Ruhl Libre', serif;
+        font-size: 3rem;
+        color: $color-primaire;
+        letter-spacing: 0.1rem;
+        margin-top: 2rem 0;
+        width: 100%;
+    }
     
-    margin: 2rem;
+    & .sect5_textstats--data {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    & p {
+        font-size : 1.25rem;
+        margin-bottom: 0.75rem;
+        width: 100%;
+    }
 }
 
 .section5_textstats{
@@ -31,17 +50,19 @@
     grid-template-columns: 1fr 1fr;
     margin: 0.5rem;
     width: 100%;
-    align-items:center;
-    justify-items: center;
-
+    align-items: left;
+    justify-items: left;
 }
 
 .section5_textstats--card{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-   
+    align-items: left;
     margin: 2rem;
+}
+
+
+btn-primaire {
     
 }

@@ -1,20 +1,54 @@
-@use 'variables';
+@import 'variables';
 
 // TYPOGRAPHIE
 
 h1, h2 {
     font-family: 'Frank Ruhl Libre', serif;
-    color: $color-primaire;
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 4rem;
+    text-transform: uppercase;
+    line-height: 5.5rem;
+    color: $color-tertiaire;
 }
 
 h2 {
-    font-size: 5.4rem;
+    font-size: 3rem;
     color: $color-primaire;
+    letter-spacing: 0.1rem;
     margin: 2rem 0;
+}
+
+    
+h3, h4 {
+    font-family: 'Lato', sans-serif;
+    color: $color-tertiaire;
+}
+
+h3 {
+    font-size: 5rem;
+    letter-spacing: 0.05rem;
+    margin: 0.75rem 0 0.05rem 0;
+}
+
+h4 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
+    font-family: 'Lato', sans-serif;
+    word-spacing: 0.25rem;
+    line-height: 1.5rem;
+    color: $color-secondaire;
+    // max-width: 60%;
+}
+
+strong {
+    color: $color-accent;
+    letter-spacing: 0.04rem;
+    margin-left: 0.25rem;
 }
 
 a {

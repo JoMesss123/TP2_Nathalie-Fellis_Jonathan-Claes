@@ -2,17 +2,49 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700&display=swap");
 h1, h2 {
   font-family: "Frank Ruhl Libre", serif;
-  color: #d9d4cc;
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 5.5rem;
+  color: #f1e9da;
 }
 
 h2 {
-  font-size: 5.4rem;
+  font-size: 3rem;
   color: #d9d4cc;
+  letter-spacing: 0.1rem;
   margin: 2rem 0;
+}
+
+h3, h4 {
+  font-family: "Lato", sans-serif;
+  color: #f1e9da;
+}
+
+h3 {
+  font-size: 5rem;
+  letter-spacing: 0.05rem;
+  margin: 0.75rem 0 0.05rem 0;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: "Lato", sans-serif;
+  word-spacing: 0.25rem;
+  line-height: 1.5rem;
+  color: #e3d3b5;
+}
+
+strong {
+  color: #f9bf45;
+  letter-spacing: 0.04rem;
+  margin-left: 0.25rem;
 }
 
 a {
@@ -80,7 +112,7 @@ header {
   word-spacing: 0.25rem;
   line-height: 1.5rem;
   color: #e3d3b5;
-  max-width: 66.666666%;
+  max-width: 60%;
 }
 
 .btn--primaire {
@@ -123,17 +155,15 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 4rem;
   background-color: rgb(37, 29, 14);
 }
 #section2 h2 {
   font-size: 3rem;
   color: #d9d4cc;
   letter-spacing: 0.1rem;
-  margin-top: 4rem;
 }
 #section2 p {
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem;
   max-width: 70%;
 }
 
@@ -241,6 +271,9 @@ iframe {
   border-bottom: 2px solid #f9bf45;
   box-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
 }
+.section3_gridcard .section3_divcard img img:hover {
+  box-shadow: 0 14px 28px rgba(18, 14, 7, 0.25), 0 10px 10px rgba(13, 0, 0, 0.22);
+}
 .section3_gridcard .section3_divcard h3, .section3_gridcard .section3_divcard h4 {
   font-family: "Lato", sans-serif;
   color: #f1e9da;
@@ -321,28 +354,9 @@ iframe {
   margin-right: 15%;
 }
 
-h1, h2 {
-  font-family: "Frank Ruhl Libre", serif;
-  color: #d9d4cc;
-}
-
-h1 {
-  font-size: 8rem;
-}
-
-h2 {
-  font-size: 5.4rem;
-  color: #d9d4cc;
-  margin: 2rem 0;
-}
-
-a {
-  text-decoration: none;
-  transition: all 0.3s;
-}
-
 #section5 {
   background-color: rgb(37, 29, 14);
+  margin: 4rem 0;
 }
 
 .section5_conteneur {
@@ -353,15 +367,32 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: left;
 }
 
 .section5_text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  margin: 2rem;
+  text-align: left;
+  margin-left: 3rem;
+}
+.section5_text h2 {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 3rem;
+  color: #d9d4cc;
+  letter-spacing: 0.1rem;
+  margin-top: 2rem 0;
+  width: 100%;
+}
+.section5_text .sect5_textstats--data {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.section5_text p {
+  font-size: 1.25rem;
+  margin-bottom: 0.75rem;
+  width: 100%;
 }
 
 .section5_textstats {
@@ -369,31 +400,63 @@ a {
   grid-template-columns: 1fr 1fr;
   margin: 0.5rem;
   width: 100%;
-  align-items: center;
-  justify-items: center;
+  align-items: left;
+  justify-items: left;
 }
 
 .section5_textstats--card {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   margin: 2rem;
 }
 
 h1, h2 {
   font-family: "Frank Ruhl Libre", serif;
-  color: #d9d4cc;
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 4rem;
+  text-transform: uppercase;
+  line-height: 5.5rem;
+  color: #f1e9da;
 }
 
 h2 {
-  font-size: 5.4rem;
+  font-size: 3rem;
   color: #d9d4cc;
+  letter-spacing: 0.1rem;
   margin: 2rem 0;
+}
+
+h3, h4 {
+  font-family: "Lato", sans-serif;
+  color: #f1e9da;
+}
+
+h3 {
+  font-size: 5rem;
+  letter-spacing: 0.05rem;
+  margin: 0.75rem 0 0.05rem 0;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: "Lato", sans-serif;
+  word-spacing: 0.25rem;
+  line-height: 1.5rem;
+  color: #e3d3b5;
+}
+
+strong {
+  color: #f9bf45;
+  letter-spacing: 0.04rem;
+  margin-left: 0.25rem;
 }
 
 a {

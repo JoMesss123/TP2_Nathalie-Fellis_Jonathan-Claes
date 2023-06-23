@@ -3,18 +3,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 4rem;
     background-color: $color-fond;
 
     h2 {
         font-size: 3rem;
         color: $color-primaire;
         letter-spacing: 0.1rem;
-        margin-top: 4rem;
     }
 
     p {
-        font-size : 1.2rem;
-        margin-bottom: 0.5rem;
         max-width: 70%;
     }
 }
