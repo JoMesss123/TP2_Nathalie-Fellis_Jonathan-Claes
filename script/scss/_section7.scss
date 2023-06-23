@@ -5,20 +5,22 @@
     background-color:$color-fond;
     max-width: 1200px;
     margin: 3rem auto;
+}
 
-    & h2 {
-        font-family: 'Frank Ruhl Libre', serif;
-        font-size: 3rem;
-        color: $color-primaire;
-        letter-spacing: 0.1rem;
-        margin-top: 2rem 0;
-    }
-    
-    p {
-        font-size : 1.25rem;
-        margin-bottom: 0.75rem;
-        max-width: 70%;
-    }
+h2 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 3rem;
+    color: $color-primaire;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem 0;
+    border: 2px solid red;
+}
+
+p {
+    font-size : 1.25rem;
+    margin-bottom: 0.75rem;
+    max-width: 70%;
+    border: 2px solid green;
 }
 
 .section7_accordeons{
@@ -35,5 +37,3 @@
     margin: 0 1rem;
     padding: 1rem;  
 }
-
-
