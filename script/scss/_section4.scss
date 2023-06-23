@@ -13,6 +13,12 @@
     text-align: left;
     vertical-align: middle;
     align-items: center;
+    padding: 2rem 0;
+    
+    
+    img {
+        box-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
+    }
 }
 
 .section4_card1, .section4_card3 {
@@ -26,14 +32,6 @@
     margin: 2rem 0;
 }
 
-.section4_card--text {
-    padding: 2rem 0;
-
-    img {
-        box-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
-    }
-}
-
 .section4_card--text, .section4_card--text1, .section4_card--text2 {
     color: $color-tertiaire;
     font-size: 1.25em;
@@ -43,4 +41,8 @@
 
 .section4_card--text1 {
     margin-left: 10%;
+}
+
+.section4_card--text2 {
+    margin-right: 15%;
 }

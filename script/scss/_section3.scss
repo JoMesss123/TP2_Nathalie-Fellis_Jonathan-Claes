@@ -1,6 +1,6 @@
 #section3{
     background-color: $color-fond;
-    margin-top: 2rem; 
+    margin: 5rem 0; 
 }
 
 .section3_princ{
@@ -26,60 +26,63 @@
 }
 
 .section3_gridcard{
-    margin: auto;
-    align-items: center;
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1rem;
+    align-items: center;
+    align-self: flex-start;
     align-items: stretch;
-    margin: 1rem;
-    margin-bottom: 2rem;
-    
-    img {
-        border-bottom: 2px solid $color-accent;
-        overflow: hidden;
-        box-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
+    margin: 2rem 0;
 
-        &:hover {
-            box-shadow: 0 14px 28px rgba(18, 14, 7, 0.25), 0 10px 10px rgba(13, 0, 0, 0.22);
+    .section3_divcard{
+        display: flex;
+        flex-direction: column;
+
+        img {
+            object-position: center;
+            width: 100%;
+            margin: auto;
+            overflow: hidden;
+            border-bottom: 2px solid $color-accent;
+            box-shadow: 0 3px 6px rgba(18, 14, 7, 0.16), 0 3px 6px rgba(13, 0, 0, 0.23);
         }
-    }
-
-    h3, h4 {
-        font-family: 'Lato', sans-serif;
-        color: $color-tertiaire;
-    }
-
-    h3 {
-        font-size: 1.75rem;
-        letter-spacing: 0.05rem;
-        margin: 0.75rem 0 0.05rem 0;
-    }
-
-    h4 {
-        font-size: 1rem;
-    }
-
-    strong {
-        color: $color-accent;
-        letter-spacing: 0.04rem;
-        margin-left: 0.25rem;
-    }
-
-    p{
-        font-family: 'FrankRuhlLibre, serif';
-        font-size: 1.15rem;
-        margin-top: 0.5rem;
-    }
-    i {
-        color: $color-icone;
-        font-size: 1.5rem;
-        margin: 1rem 1rem 1.5rem 0;
-        transition: 0.3s, color 0.3s;
-
-        &:hover {
+    
+        h3, h4 {
+            font-family: 'Lato', sans-serif;
+            color: $color-tertiaire;
+        }
+    
+        h3 {
+            font-size: 1.75rem;
+            letter-spacing: 0.05rem;
+            margin: 0.75rem 0 0.05rem 0;
+        }
+    
+        h4 {
+            font-size: 1rem;
+        }
+    
+        strong {
             color: $color-accent;
+            letter-spacing: 0.04rem;
+            margin-left: 0.25rem;
+        }
+    
+        p{
+            font-family: 'FrankRuhlLibre, serif';
+            font-size: 1.15rem;
+            margin-top: 0.5rem;
+            flex-grow: 1;
+        }
+        i {
+            color: $color-icone;
+            font-size: 1.5rem;
+            margin: 1rem 1rem 1.5rem 0;
+            transition: 0.3s, color 0.3s;
+    
+            &:hover {
+                color: $color-accent;
+            }
         }
     }
 }
