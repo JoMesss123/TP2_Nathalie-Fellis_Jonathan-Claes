@@ -15,6 +15,10 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: left;
+
+    & .section5_img {
+        box-shadow: 0 14px 28px rgba(18, 14, 7, 0.25), 0 10px 10px rgba(13, 0, 0, 0.22);
+    }
 }
 
 .section5_text{

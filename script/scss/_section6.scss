@@ -21,6 +21,7 @@
 	object-position: center;
 	width: 100%;
 	overflow: hidden;
+    box-shadow: 0 14px 28px rgba(18, 14, 7, 0.25), 0 10px 10px rgba(13, 0, 0, 0.22);
     
     & img:hover {
         transform: scale(1.25);
