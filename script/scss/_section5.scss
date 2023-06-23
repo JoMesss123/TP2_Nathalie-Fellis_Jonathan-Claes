@@ -1,5 +1,5 @@
 @import 'variables';
-// @import 'typography';
+@import 'typography';
 
 #section5{
     background-color:rgb(37, 29, 14);
@@ -22,24 +22,25 @@
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    margin-left: 3rem;
+    margin-left: 5rem;
 
     & h2 {
         font-family: 'Frank Ruhl Libre', serif;
         font-size: 3rem;
         color: $color-primaire;
         letter-spacing: 0.1rem;
-        margin-top: 2rem 0;
         width: 100%;
     }
     
     & .sect5_textstats--data {
         font-size: 3rem;
+        color: $color-tertiaire;
         margin-bottom: 1rem;
     }
     
     & p {
         font-size : 1.25rem;
+        color: $color-tertiaire;
         margin-bottom: 0.75rem;
         width: 100%;
     }
@@ -48,7 +49,6 @@
 .section5_textstats{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 0.5rem;
     width: 100%;
     align-items: left;
     justify-items: left;
@@ -59,10 +59,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin: 2rem;
+    margin-top: 2.5rem;
 }
 
-
-btn-primaire {
-    
+.btn--primaire {
+    margin: 2rem 0 0 0;
 }

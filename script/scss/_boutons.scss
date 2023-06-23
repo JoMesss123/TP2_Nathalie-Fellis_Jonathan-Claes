@@ -1,0 +1,40 @@
+@use 'variables';
+
+// BOUTONS
+
+.btn--primaire{
+    width: 25%;
+    margin: 2rem 0 0 1.5rem;
+    height: 3rem;
+    padding: 0 1.25rem;
+    border: 1px solid $color-accent;
+    background-color: $color-accent;
+    color: $color-btn-txt;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+        background-color: $color-btn-txt;
+        color: $color-accent;
+    }
+}
+
+.btn--secondaire{
+    width: 25%;
+    margin-top: 2rem;
+    height: 3rem;
+    padding: 0 1.25rem;
+    border: 1px solid $color-accent;
+    color: $color-accent;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+    transition: background-color 0.3s, color 0.3s;
+
+    &:hover {
+        background-color: $color-btn-txt;
+        color: $color-accent;
+    }
+}

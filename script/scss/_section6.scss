@@ -2,28 +2,39 @@
 @import 'typography';
 
 #section6{
-    background-color:$color-fond;
+    position: relative; /* Positionnement relatif pour le conteneur */
+    margin-bottom: 6rem;
 }
 
 .section6_grid{
     max-width: 1200px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap:1rem;
+    gap: 3%;
     margin: auto;
     width: 100%;
-    align-items:center;
-    justify-items: center;    
+    justify-content: flex-start;
+    align-content: flex-start;
 }
 
 .section6_img {
 	object-position: center;
-	width: 95%;
-	margin: auto;
+	width: 100%;
 	overflow: hidden;
     
     & img:hover {
         transform: scale(1.25);
         transition: .5s, transform .5s ease-out;
     }
+}
+
+.section6_bande {
+    position: absolute; /* Positionnement absolu pour la bande jaune */
+    background-color: $color-accent;
+    opacity: 70%;
+    top: 20%; /* Commence à 20% du haut */
+    left: 0;
+    width: 100%; /* Couvre toute la largeur */
+    height: 40%; /* 40% de hauteur */
+    z-index: -1; /* Mettre la bande sous la grille */
 }
