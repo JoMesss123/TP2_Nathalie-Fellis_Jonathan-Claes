@@ -12,5 +12,26 @@
 @import 'section6';
 @import 'footer';
 
+
 @import url('https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre:400,700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
+
+@media screen and (max-width: 768px) {
+    .section2_divimg{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        & img {
+            width: 100%;
+            padding: 0.2rem;
+            margin: auto;
+            object-fit: cover;
+            box-shadow: 0 14px 28px rgba(18, 14, 7, 0.25), 0 10px 10px rgba(13, 0, 0, 0.22);
+        }
+    }
+    
+    .section3_gridcard{
+        
+        grid-template-columns: 1fr 1fr 1fr ;
+        
+}}
