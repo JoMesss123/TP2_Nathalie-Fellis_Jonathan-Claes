@@ -37,6 +37,17 @@
     }
 }
 
+@media screen and (max-width: 992px) {
+    .section5_conteneur {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    
+}
+
 @media screen and (max-width: 768px) {
    
     .section2_divimg {
