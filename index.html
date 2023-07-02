@@ -11,6 +11,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style/css/script.css">
     <link rel="stylesheet" href="style/css/normalize.css">
+    <script src="script.js" defer></script>
     <title>Dune - Partie 2</title>
 </head>
 
@@ -31,26 +32,30 @@
                     <!-- Items du menu -->
                     <div class="hidden md:flex space-x-6">
                         <a href="index.html"
-                            class="text-2xl text-yellow-500 border-transparent border-b-2 hover:text-orange-500 hover:border-b-2 hover:border-orange-500 focus:text-white focus:outline-none">Accueil</a>
+                            class="text-2xl text-[#f9bf45] border-transparent border-b-2 hover:text-orange-500 hover:border-b-2 hover:border-orange-500 focus:text-white focus:outline-none">Accueil</a>
                         <a href="tournage.html"
-                            class="text-2xl text-yellow-500 border-transparent border-b-2 hover:text-orange-500 hover:border-b-2 hover:border-orange-500 focus:text-white focus:outline-none ">Tournage</a>
+                            class="text-2xl text-[#f9bf45] border-transparent border-b-2 hover:text-orange-500 hover:border-b-2 hover:border-orange-500 focus:text-white focus:outline-none ">Tournage</a>
                     </div>
 
                     <!-- Menu icone hamburger -->
                     <button id="menu_btn" class="md:hidden focus:outline-none">
-                        <i class="fa-solid fa-bars-staggered text-4xl text-yellow-500"></i>
-                        <i class="fas fa-times text-4xl text-yellow-500 hidden"></i>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-[#f9bf45] transition duration-200 ease-in-out transform md:hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-[#f9bf45] transition duration-200 ease-in-out transform md:hidden hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                        </svg>
                     </button>
                 </div>
 
                 <!-- Menu Mobile -->
                 <div id="menu"
-                    class="fixed top-0 left-0 w-full h-full z-50 hidden md:hidden bg-gray-900 mt-28 opacity-90">
+                    class="fixed top-0 left-0 w-full h-full z-50 hidden md:hidden bg-[#2e0f05] mt-28 opacity-90">
                     <div class="flex flex-col items-start justify-start py-8 mt-10 space-y-6 font-bold">
                         <a href="index.html"
-                            class="block ml-5 mr-5 px-2 py-2 w-full text-2xl text-yellow-500 font-semibold border-b-2 border-yellow-500 hover:bg-gray-800 hover:text-orange-700">Accueil</a>
+                            class="block ml-5 mr-5 px-2 py-2 w-full text-2xl text-[#f9bf45] font-semibold border-b-2 border-[#f9bf45] hover:bg-[#f9bf45] hover:bg-opacity-20 hover:text-[#f1e9da]">Accueil</a>
                         <a href="tournage.html"
-                            class="mt-4 ml-5 mr-5 block px-2 py-2 w-full text-2xl text-yellow-500 font-semibold border-b-2 border-yellow-500 hover:bg-gray-800 hover:text-orange-700">Tournage</a>
+                            class="mt-4 ml-5 mr-5 block px-2 py-2 w-full text-2xl text-[#f9bf45] font-semibold border-b-2 border-[#f9bf45] hover:bg-[#f9bf45] hover:bg-opacity-20 hover:text-[#f1e9da]">Tournage</a>
                     </div>
                 </div>
             </nav>

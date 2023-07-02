@@ -1,8 +1,8 @@
 // MENU MOBILE
 const btn = document.getElementById('menu_btn');
 const nav = document.getElementById('menu');
-const barsIcon = document.querySelector('.fa-bars-staggered');
-const timesIcon = document.querySelector('.fa-times');
+const barsIcon = document.querySelector('#menu_btn svg:first-child');
+const timesIcon = document.querySelector('#menu_btn svg:last-child');
 
 btn.addEventListener('click', () => {
     btn.classList.toggle('open');
