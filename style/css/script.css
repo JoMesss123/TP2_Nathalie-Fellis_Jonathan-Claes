@@ -659,26 +659,105 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
+  .section_presentation {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 2rem;
+    max-width: 90%;
+    height: 100vh;
+    padding-top: 3%;
+  }
+  .section_presentation--text {
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .section_presentation--text h1 {
+    font-size: 2.2rem;
+    line-height: 3rem;
+    margin-bottom: 3%;
+  }
+  .section_presentation--img {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .section_presentation--bouton {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5% 0;
+  }
+  #section2 {
+    text-align: center;
+  }
+  #section2 h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+  .section2_form {
+    max-width: 90%;
+    margin-bottom: 10%;
+  }
+  .section2_card--video {
+    display: none;
+  }
   .section2_divimg {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 0;
   }
   .section2_divimg img {
-    width: 100%;
-    padding: 0.2rem;
+    max-width: 90%;
+    margin-bottom: 5%;
     margin: auto;
-    -o-object-fit: cover;
-       object-fit: cover;
-    box-shadow: 0 14px 28px rgba(18, 14, 7, 0.25), 0 10px 10px rgba(13, 0, 0, 0.22);
   }
   .section3_gridcard {
     grid-template-columns: 1fr 1fr;
   }
-  .section4_card--text {
+  .section3_princ {
+    max-width: 90%;
+  }
+  .section3_princ h2 {
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    margin-top: 1rem 0;
+  }
+  .section3_princ h3 {
+    font-size: 1rem;
+  }
+  .section3_princ h4 {
+    font-size: 0.75rem;
+  }
+  .section3_princ p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+  .section4_card--text,
+  .section4_card--text1,
+  .section4_card--text2 {
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    max-width: 90%;
+    padding-bottom: 5%;
+    font-size: 1.1rem;
+  }
+  .section4_card--column {
     flex-direction: column;
   }
-  .section4_card--text2 {
-    margin-right: 0%;
-    margin-left: 10%;
+  .footer_flex {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer_contact {
+    width: 100%;
+    text-align: center;
+    margin: 5% 0;
+  }
+  p {
+    font-size: 1rem;
   }
 }
