@@ -659,6 +659,9 @@ a {
   }
 }
 @media screen and (max-width: 768px) {
+  #section_hero {
+    padding: 2rem;
+  }
   .section_presentation {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;

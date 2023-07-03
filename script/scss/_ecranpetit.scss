@@ -2,6 +2,10 @@
 
     // SECTION 1
 
+    #section_hero{
+        padding: 2rem;
+    }
+
     .section_presentation {
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
