@@ -25,7 +25,7 @@
         "src" : "/TP2_Nathalie-Fellis_Jonathan-Claes/image/icons/maskable_icon_x144.png",
         "sizes" : "144x144",
         "type" : "image/png",
-        "purpose" : "maskable"
+        "purpose" : "anymaskable"
     },{
         "src" : "/TP2_Nathalie-Fellis_Jonathan-Claes/image/icons/maskable_icon_x152.png",
         "sizes" : "152x152",
