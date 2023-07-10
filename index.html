@@ -23,6 +23,17 @@
     <meta name="msapplication-TileColor" content="#2e0f05">
     <meta name="msapplication-TileImage" content="image/Dune-logo-transparent.png">
     <meta name="msapplication-config" content="image/browserconfig.xml">
+    <script>
+        // Register service worker.
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js')
+                    .then((reg) => {
+                        console.log('Service worker registered.', reg);
+                    });
+            });
+        }
+    </script>
 
     <script src="script.js" defer></script>
     <title>Dune - Partie 2</title>
@@ -156,8 +167,8 @@
                 <img src="image/IMG-Dune-P1-Mobile-S2-D3-Bataille.gif" alt="image3" class="section2_divimg--img">
             </div>
 
-            <iframe width="675" height="379" src="https://www.youtube.com/embed/Way9Dexny3w" class="section2_card--video"
-                title= " Dune: Part Two | Official Trailer" 
+            <iframe width="675" height="379" src="https://www.youtube.com/embed/Way9Dexny3w"
+                class="section2_card--video" title=" Dune: Part Two | Official Trailer"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen>
             </iframe>
