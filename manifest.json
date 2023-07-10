@@ -1,6 +1,6 @@
 {
     "name": "Dune",
-    "sort_name" : "Dune",
+    "short_name" : "Dune",
     "icons" : [{
         "src" : "/TP2_Nathalie-Fellis_Jonathan-Claes/image/icons/maskable_icon_x48.png",
         "sizes" : "48x48",
@@ -25,7 +25,7 @@
         "src" : "/TP2_Nathalie-Fellis_Jonathan-Claes/image/icons/maskable_icon_x144.png",
         "sizes" : "144x144",
         "type" : "image/png",
-        "purpose" : "maskable"
+        "purpose" : "anymaskable"
     },{
         "src" : "/TP2_Nathalie-Fellis_Jonathan-Claes/image/icons/maskable_icon_x192.png",
         "sizes" : "192x192",
@@ -42,7 +42,7 @@
         "type" : "image/png",
         "purpose" : "maskable"
     }],
-    "start_url": "/TP2_Nathalie-Fellis_Jonathan-Claes/image/icons/index.html",
+    "start_url": "/TP2_Nathalie-Fellis_Jonathan-Claes/index.html",
     "display": "standalone",
     "background_color": "#000000",
     "theme_color": "#000000"
