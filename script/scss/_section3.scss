@@ -5,7 +5,7 @@
 
 .section3_princ{
     max-width: 1200px;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     margin:auto;
@@ -25,18 +25,50 @@
     }
 }
 
-.section3_gridcard{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    align-items: center;
-    align-self: flex-start;
-    align-items: stretch;
-    margin: 2rem 0;
+// .section3_gridcard{
+//     display: grid;
+//     grid-template-columns: 1fr 1fr 1fr 1fr;
+//     grid-gap: 1rem;
+//     align-items: center;
+//     align-self: flex-start;
+//     align-items: stretch;
+//     margin: 2rem 0;
 
+//     .section3_divcard{
+//         display: flex;
+//         flex-direction: column;
+
+// ****************** À APPROUVER ********************* //
+// J'arrivais pas à centrer les 2 dernières images en taille 1280-978px, alors j'ai remplacé le display grid en display flex.
+// J'ai essayé avec nth child, mais ça devenait trop compliqué pour moi et ça va contre le principe de grid
+// J'ai laissé les media queries dans la section pour que ce soit plus simple à comprendre, on pourra les faire migrer après
+// Si ça te tente d'essayer de jouer sur l'alignement des 2 images du bas :) 
+// voir https://stackoverflow.com/questions/46276793/how-to-center-elements-on-the-last-row-in-css-grid 
+
+.section3_gridcard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2%;
+    margin: 2rem 0;
+            
     .section3_divcard{
+        width: 23%;
+        flex: 1;
+        flex-basis: 23%;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        
+            @media screen and (max-width: 1279px) {
+                max-width: 32%;
+                flex-basis: 32%; // Ajuster la taille de base pour 3 colonnes
+            }
+        
+            @media screen and (max-width: 767px) {
+                max-width: 48%;
+                flex-basis: 48%; // Une seule colonne pour les écrans plus petits
+            }
 
         img {
             object-position: center;

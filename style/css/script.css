@@ -231,7 +231,7 @@ iframe {
 
 .section3_princ {
   max-width: 1200px;
-  width: 100%;
+  width: 90%;
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -250,17 +250,31 @@ iframe {
 }
 
 .section3_gridcard {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1rem;
-  align-items: center;
-  align-self: flex-start;
-  align-items: stretch;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2%;
   margin: 2rem 0;
 }
 .section3_gridcard .section3_divcard {
+  width: 23%;
+  flex: 1;
+  flex-basis: 23%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1279px) {
+  .section3_gridcard .section3_divcard {
+    max-width: 32%;
+    flex-basis: 32%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section3_gridcard .section3_divcard {
+    max-width: 48%;
+    flex-basis: 48%;
+  }
 }
 .section3_gridcard .section3_divcard img {
   -o-object-position: center;
