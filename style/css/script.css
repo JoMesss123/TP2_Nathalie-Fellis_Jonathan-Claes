@@ -637,6 +637,14 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+  .section4_card--text {
+    max-width: 90%;
+  }
+  .section4_card--text p {
+    font-size: 1.2rem;
+  }
+}
 @media screen and (max-width: 992px) {
   .section5_conteneur {
     flex-direction: column-reverse;
