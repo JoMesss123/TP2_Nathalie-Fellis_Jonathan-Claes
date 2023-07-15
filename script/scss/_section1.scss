@@ -10,8 +10,8 @@
     margin: auto;
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr 1fr ;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     align-items: center;
     padding-top: 5rem;
     padding-bottom: 5rem;
@@ -19,7 +19,7 @@
 
 .section_presentation--img{
     width: 100%;
-    grid-column: 4/7;
+    grid-column: 8/14;
     grid-row: 1/4;
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
     justify-content: center;
     text-align: left;
     opacity: .999999;
-    grid-column: 1/5;
+    grid-column: 2/10;
     grid-row: 1/4;
 
     & h1{
@@ -53,43 +53,3 @@
         max-width: 60%;
     }
 }
-
-// BOUTONS
-
-.btn--primaire{
-    width: 25%;
-    margin: 2rem 0 0 1.5rem;
-    height: 3rem;
-    padding: 0 1.25rem;
-    border: 1px solid $color-accent;
-    background-color: $color-accent;
-    color: $color-btn-txt;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05rem;
-    transition: background-color 0.3s, color 0.3s;
-
-    &:hover {
-        background-color: $color-btn-txt;
-        color: $color-accent;
-    }
-}
-
-.btn--secondaire{
-    width: 25%;
-    margin-top: 2rem;
-    height: 3rem;
-    padding: 0 1.25rem;
-    border: 1px solid $color-accent;
-    color: $color-accent;
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05rem;
-    transition: background-color 0.3s, color 0.3s;
-
-    &:hover {
-        background-color: $color-btn-txt;
-        color: $color-accent;
-    }
-}
-
